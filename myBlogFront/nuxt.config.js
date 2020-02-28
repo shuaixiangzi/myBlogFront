@@ -1,3 +1,11 @@
+/*
+ * @Author: 翟海祥
+ * @Date: 2020-02-26 10:32:00
+ * @LastEditTime: 2020-02-26 11:07:26
+ * @LastEditors: 翟海祥
+ * @Description:
+ * @FilePath: \myBlogFront\nuxt.config.js
+ */
 
 export default {
   mode: 'universal',
@@ -23,13 +31,16 @@ export default {
   ** Global CSS
   */
   css: [
-    'element-ui/lib/theme-chalk/index.css'
+    'element-ui/lib/theme-chalk/index.css',
+    'normalize.css/normalize.css',
+    './assets/css/common.css',
+    './assets/css/default.css'
   ],
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '@/plugins/element-ui'
+    '@/plugins/element-ui',
   ],
   /*
   ** Nuxt.js dev-modules
